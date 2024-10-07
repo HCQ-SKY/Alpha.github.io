@@ -174,42 +174,18 @@
 <span id="more"></span>
 
 <h2 id="十进制转换成二进制"><a href="#十进制转换成二进制" class="headerlink" title="十进制转换成二进制"></a>十进制转换成二进制</h2><p>eg: 150 的二进制表示为：10010110<br>具体转换方法如下（除法运算）：</p>
-<ul>
-<li><pre><code>    2|150
+<pre><code>     2|150
+       2|75------0
+         2|37------1
+           2|18------1
+             2|9------0
+               2|4------1
+                 2|2------0
+                   2|1------0
+                     2|1------1
+                       0
 </code></pre>
-</li>
-<li><pre><code>      2|75------0
-</code></pre>
-</li>
-<li><pre><code>        2|37------1
-</code></pre>
-</li>
-<li><pre><code>          2|18------1
-</code></pre>
-</li>
-<li><pre><code>            2|9------0
-</code></pre>
-</li>
-<li><pre><code>              2|4------1
-</code></pre>
-</li>
-<li><pre><code>                2|2------0
-</code></pre>
-</li>
-<li><pre><code>                  2|1------0
-</code></pre>
-</li>
-<li><pre><code>                    2|1------1
-</code></pre>
-</li>
-<li><pre><code>                      0
-</code></pre>
-</li>
-<li><a href="">注：余数倒序输出</a></li>
-<li><pre><code>                         结果：10010110
-</code></pre>
-</li>
-</ul>
+<p><a href="">注：余数倒序输出</a><br>结果：10010110</p>
 <h2 id="二进制转换成十进制"><a href="#二进制转换成十进制" class="headerlink" title="二进制转换成十进制"></a>二进制转换成十进制</h2><p>以 10010110 为例<br>1×2^7 + 1*2^6 +……+ 1×2^2 + 1×2^1 + 1×2^0 &#x3D; 150</p>
 <h2 id="八进制转换成二进制"><a href="#八进制转换成二进制" class="headerlink" title="八进制转换成二进制"></a>八进制转换成二进制</h2><p>eg: 226 的二进制表示为：10010110<br>具体转换方法如下（除法运算）：</p>
 <ul>
